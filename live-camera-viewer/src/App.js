@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import LiveFeed from "./LiveFeed";
 
@@ -32,6 +33,16 @@ function App() {
       ) : (
         <LiveFeed />
       )}
+=======
+import React from 'react';
+import LiveImageViewer from './LiveImageViewer';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <LiveImageViewer />
+>>>>>>> 8b00055
     </div>
   );
 }
