@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import LiveFeed from "./LiveFeed";
+import "./App.css";
 
 function App() {
   const [connected, setConnected] = useState(false);
@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "30px" }}>
+    <div className="App" style={{ textAlign: "center", marginTop: "30px" }}>
       <h1>🐶 Dog Robot Camera Feed</h1>
       {!connected ? (
         <div>
@@ -33,16 +33,6 @@ function App() {
       ) : (
         <LiveFeed />
       )}
-=======
-import React from 'react';
-import LiveImageViewer from './LiveImageViewer';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <LiveImageViewer />
->>>>>>> 8b00055
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function CheckServerConnection() {
   const [status, setStatus] = useState("Checking connection...");
-  const cameraURL = "http://172.20.10.2:5001/video_feed";
+  const cameraURL = "http://172.16.124.55:5001/video_feed";
 
   useEffect(() => {
     fetch(cameraURL, { method: "HEAD" })
