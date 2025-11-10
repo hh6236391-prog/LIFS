@@ -9,7 +9,7 @@ const LiveImageViewer = () => {
   const intervalRef = useRef(null);
   const imageRef = useRef(null);
 
-  const BACKEND_URL = 'http://127.0.0.1:5001/video_feed';
+  const BACKEND_URL = '';
 
   const fetchImage = async () => {
     try {
